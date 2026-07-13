@@ -264,9 +264,10 @@ Password : aanchal@123
 
 ### Project Team
 
-- **Anchal Srivastava**
+- **Anchal Srivastav**
 - **Parth Singh**
-- **(Add remaining contributors)**
+- **Samiya Ali**
+- **Adrija Mondal**
 
 ---
 
