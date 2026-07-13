@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Criminal Records</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0b1727;
+    color:white;
+}
+header{
+    background:#08111f;
+    padding:20px;
+    text-align:center;
+    color:#00ffff;
+    font-size:30px;
+    font-weight:bold;
+}
+.container{
+    padding:30px;
+}
+input{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:none;
+    margin-bottom:25px;
+    font-size:16px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th{
+    background:#00bcd4;
+    padding:15px;
+}
+td{
+    background:#16243b;
+    padding:15px;
+    text-align:center;
+}
+tr:hover{
+    background:#203a43;
+}
+a{
+    text-decoration:none;
+    color:white;
+    background:#00bcd4;
+    padding:12px 20px;
+    border-radius:8px;
+    display:inline-block;
+    margin-top:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+👮 Criminal Records Database
+</header>
+
+<div class="container">
+
+<input type="text" placeholder="🔍 Search Criminal Name / FIR Number">
+
+<table>
+
+<tr>
+<th>Photo</th>
+<th>Name</th>
+<th>Age</th>
+<th>Crime</th>
+<th>FIR</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>👤</td>
+<td>Rahul Sharma</td>
+<td>29</td>
+<td>Robbery</td>
+<td>FIR-1023</td>
+<td>🔴 Wanted</td>
+</tr>
+
+<tr>
+<td>👤</td>
+<td>Aman Khan</td>
+<td>34</td>
+<td>Cyber Crime</td>
+<td>FIR-1198</td>
+<td>🟠 Investigation</td>
+</tr>
+
+<tr>
+<td>👤</td>
+<td>Vikas Singh</td>
+<td>40</td>
+<td>Drug Trafficking</td>
+<td>FIR-1405</td>
+<td>🟢 Arrested</td>
+</tr>
+
+</table>
+
+<a href="dashboard.html">⬅ Back to Dashboard</a>
+
+</div>
+
+</body>
+</html>
