@@ -264,7 +264,7 @@ Password : aanchal@123
 
 ### Project Team
 
-- **Anchal Srivastav**
+- **Aanchal Srivastav**
 - **Parth Singh**
 - **Samiya Ali**
 - **Adrija Mondal**
