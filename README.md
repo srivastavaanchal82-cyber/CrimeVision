@@ -8,6 +8,12 @@ Built as a prototype for **Datathon 2026**, the platform demonstrates how data v
 
 ---
 
+## 🌐 Live Demo
+
+https://your-vercel-url.vercel.app
+
+---
+
 ## 📸 Screenshots
 
 > Add screenshots here after uploading them to GitHub.
