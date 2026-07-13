@@ -161,7 +161,7 @@ CrimeVision/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/srivastavaanchal82-cyber/CrimeVision.git
+git clone https://github.com/parthsingh23/CrimeVision
 ```
 
 Move into project
