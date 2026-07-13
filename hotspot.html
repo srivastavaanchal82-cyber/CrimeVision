@@ -1,121 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Crime Hotspots</title>
+    <title>Crime Hotspots</title>
+    <link rel="stylesheet" href="style.css">
 
-<style>
+    <style>
+        .map {
+            height: 350px;
+            background: #1b263b;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
 
-body{
-margin:0;
-font-family:Arial;
-background:#0b1727;
-color:white;
-}
+        .card {
+            background: #16243b;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 15px 0;
+            font-size: 20px;
+        }
 
-header{
-background:#08111f;
-padding:20px;
-text-align:center;
-font-size:30px;
-color:#00ffff;
-}
+        .high {
+            border-left: 8px solid red;
+        }
 
-.container{
-padding:30px;
-}
+        .medium {
+            border-left: 8px solid orange;
+        }
 
-.map{
-height:350px;
-background:#1b263b;
-border-radius:15px;
-display:flex;
-justify-content:center;
-align-items:center;
-font-size:28px;
-margin-bottom:30px;
-}
-
-.card{
-background:#16243b;
-padding:20px;
-border-radius:12px;
-margin:15px 0;
-font-size:20px;
-}
-
-.high{
-border-left:8px solid red;
-}
-
-.medium{
-border-left:8px solid orange;
-}
-
-.low{
-border-left:8px solid lime;
-}
-
-a{
-display:inline-block;
-margin-top:20px;
-padding:12px 20px;
-background:#00bcd4;
-color:white;
-text-decoration:none;
-border-radius:8px;
-}
-
-</style>
+        .low {
+            border-left: 8px solid lime;
+        }
+    </style>
 
 </head>
 
 <body>
 
-<header>
+    <header>
 
-📍 Crime Hotspot Analysis
+        📍 Crime Hotspot Analysis
 
-</header>
+    </header>
 
-<div class="container">
+    <div class="container">
 
-<div class="map">
+        <div class="map">
 
-🗺 Interactive Crime Heat Map
+            🗺 Interactive Crime Heat Map
 
-</div>
+        </div>
 
-<div class="card high">
+        <div class="card high">
 
-🔴 Salt Lake – High Risk (87%)
+            🔴 Salt Lake – High Risk (87%)
 
-</div>
+        </div>
 
-<div class="card high">
+        <div class="card high">
 
-🔴 Park Street – High Risk (81%)
+            🔴 Park Street – High Risk (81%)
 
-</div>
+        </div>
 
-<div class="card medium">
+        <div class="card medium">
 
-🟠 Howrah – Medium Risk (61%)
+            🟠 Howrah – Medium Risk (61%)
 
-</div>
+        </div>
 
-<div class="card low">
+        <div class="card low">
 
-🟢 Dum Dum – Low Risk (24%)
+            🟢 Dum Dum – Low Risk (24%)
 
-</div>
+        </div>
 
-<a href="dashboard.html">
+        <a href="dashboard.html" class="page-link">
 
-⬅ Dashboard
+            ⬅ Dashboard
 
-</a>
+        </a>
 
-</div>
+    </div>
 
 </body>
 

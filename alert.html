@@ -1,123 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Smart Alerts</title>
+    <title>Smart Alerts</title>
+    <link rel="stylesheet" href="style.css">
 
-<style>
+    <style>
+        .alert {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
 
-body{
-margin:0;
-font-family:Arial;
-background:#0b1727;
-color:white;
-}
+        .red {
+            background: #8B0000;
+        }
 
-header{
-background:#08111f;
-padding:20px;
-text-align:center;
-font-size:30px;
-color:#00ffff;
-}
+        .orange {
+            background: #CC7000;
+        }
 
-.container{
-padding:30px;
-}
+        .green {
+            background: #006400;
+        }
 
-.alert{
-padding:20px;
-margin-bottom:20px;
-border-radius:10px;
-font-size:18px;
-}
+        button {
+            padding: 12px 20px;
+            background: #00bcd4;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
 
-.red{
-background:#8B0000;
-}
-
-.orange{
-background:#CC7000;
-}
-
-.green{
-background:#006400;
-}
-
-button{
-padding:12px 20px;
-background:#00bcd4;
-color:white;
-border:none;
-border-radius:8px;
-cursor:pointer;
-font-size:16px;
-}
-
-button:hover{
-background:#0097a7;
-}
-
-a{
-display:inline-block;
-margin-top:20px;
-padding:12px 20px;
-background:#00bcd4;
-color:white;
-text-decoration:none;
-border-radius:8px;
-}
-
-</style>
+        button:hover {
+            background: #0097a7;
+        }
+    </style>
 
 </head>
 
 <body>
 
-<header>
+    <header>
 
-🚨 Smart Alert Center
+        🚨 Smart Alert Center
 
-</header>
+    </header>
 
-<div class="container">
+    <div class="container">
 
-<div class="alert red">
+        <div class="alert red">
 
-🚨 HIGH ALERT<br>
-Armed Robbery Risk detected in Salt Lake Sector V.<br>
-Recommended Action: Immediate Police Deployment.
+            🚨 HIGH ALERT<br>
+            Armed Robbery Risk detected in Salt Lake Sector V.<br>
+            Recommended Action: Immediate Police Deployment.
 
-</div>
+        </div>
 
-<div class="alert orange">
+        <div class="alert orange">
 
-⚠ MEDIUM ALERT<br>
-Cyber Fraud cases increasing in Howrah.
+            ⚠ MEDIUM ALERT<br>
+            Cyber Fraud cases increasing in Howrah.
 
-</div>
+        </div>
 
-<div class="alert green">
+        <div class="alert green">
 
-✅ LOW ALERT<br>
-No unusual criminal activity detected in Dum Dum.
+            ✅ LOW ALERT<br>
+            No unusual criminal activity detected in Dum Dum.
 
-</div>
+        </div>
 
-<button>
+        <button>
 
-Send Emergency Notification
+            Send Emergency Notification
 
-</button>
+        </button>
 
-<br><br>
+        <br><br>
 
-<a href="dashboard.html">
+        <a href="dashboard.html" class="page-link">
+            ⬅ Back to Dashboard
+        </a>
 
-⬅ Back to Dashboard
-
-</a>
-
-</div>
+    </div>
 
 </body>
 
